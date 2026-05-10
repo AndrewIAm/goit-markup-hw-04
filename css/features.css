@@ -1,0 +1,22 @@
+.block-title {
+  margin-bottom: 8px;
+}
+
+.block-text {
+  color: #434455;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+  justify-content: center;
+}
+
+.features-list .block-text {
+  /* padding-top: 8px; */
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}

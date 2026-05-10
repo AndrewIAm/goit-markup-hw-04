@@ -1,0 +1,32 @@
+.portfolio p {
+  color: #434455;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
+}
+
+.portfolio-list {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.portfolio-card-img {
+  display: block;
+}
+
+.portfolio-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
