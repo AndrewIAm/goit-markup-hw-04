@@ -13,8 +13,8 @@
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
-  padding-left: auto;
-  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-container {
