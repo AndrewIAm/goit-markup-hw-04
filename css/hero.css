@@ -10,8 +10,11 @@
   max-width: 1440px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .hero-container {
@@ -32,6 +35,7 @@
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -49,5 +53,4 @@
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }

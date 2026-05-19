@@ -36,6 +36,21 @@ p {
   padding: 0;
 }
 
+.svg-def {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.default-palette,
+.palette0 {
+  color: currentColor;
+  --color0: #f4f4fd;
+  --color1: #4d5ae5;
+  --color2: #2e2f42;
+}
+
 address {
   font-style: normal;
   color: #434455;
