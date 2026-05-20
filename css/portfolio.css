@@ -1,4 +1,4 @@
-.portfolio p:not(.slide-text) {
+.portfolio p {
   color: #434455;
 }
 
@@ -76,4 +76,8 @@
   letter-spacing: 0.02em;
 
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-card .slide-text {
+  color: #f4f4fd;
 }
